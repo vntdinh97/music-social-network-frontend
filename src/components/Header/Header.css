@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    border-bottom: dashed 2px;
+    border-color: cadetblue;
+}
+
+.search fieldset {
+    border-radius: 20px;
+}

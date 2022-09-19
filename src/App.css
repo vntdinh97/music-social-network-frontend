@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.player {
+  background-color: blue;
+  height: 100px;
+}
+
+.content {
+  flex: 1;
+  flex-direction: row;
+  display: flex;
+}
+
+.right-content {
+  flex: 1;
+  display: flex;
+  background-color: azure;
+}

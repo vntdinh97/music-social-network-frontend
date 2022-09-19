@@ -1,0 +1,21 @@
+.left-menu {
+    width: 170px;
+    padding-left: 50px;
+    border-color: cadetblue;
+    border-right: dashed 2px;
+}
+
+.nav-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-button :hover {
+    cursor: pointer;
+}
+
+.nav-button p {
+    font-weight: bold;
+    margin-left: 10px;
+}
